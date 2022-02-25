@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #eeedec;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+.container {
+  max-width: 500px;
+}
