@@ -1,4 +1,4 @@
-const apikey = "8TMhsGXyfZ78T0uuZDJgRrhVna2x0V2u";
+const apikey = "dhYvbWLCrA8LPDJfqi5naQhJUQdLS3ym";
 
 //get weather info
 const getWeather = async (Key) => {
@@ -18,14 +18,3 @@ const getCity = async (city) => {
 
   return data[0];
 };
-
-getCity("chisinau")
-  .then((data) => {
-    return getWeather(data.Key);
-  })
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
